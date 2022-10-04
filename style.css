@@ -1,0 +1,233 @@
+.header {
+    width: 2250px;
+    background: url(./Images/plage.png );
+    width: 100%;
+    height: 70vh;
+    color: white;
+    left: -405px;
+    top: -356px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* position:relative ; */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+   color: #FFFFFF !important;
+
+}
+
+.nav-item {
+    color: #FFFFFF;
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+}
+.para {
+    margin-top: 30px;
+    width: 124px;
+    height: 19px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1.2px;
+
+    color: #12CE31;
+
+}
+
+.hero {
+    width: 665px;
+    height: 144px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+   margin-top:-20px;
+}
+
+.vieux {
+    width: 100px;
+    height: 100px;
+
+}
+
+.nage {
+    width: 100px;
+    height: 100px;
+
+}
+
+.mer {
+    width: 100px;
+    height: 100px;
+}
+
+.card-text {
+    margin-top: 8rem;
+}
+
+.my-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.card {
+    margin: 25px;
+}
+
+.travel {
+    /* position: absolute; */
+    width: 247px;
+    height: 48px;
+    /* left: 0px; */
+    /* top: calc(50% - 48px/2); */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.32px;
+    color: #030C04;
+}
+
+.based {
+    width: 391px;
+    height: 48px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.32px;
+    color: #030C04;
+
+}
+
+.title {
+    width: 78px;
+    height: 16px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    color: #12CE31;
+    display: flex;
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 0;
+    /* flex-grow: 0; */
+}
+
+.parag {
+    width: 247px;
+    height: 84px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    /* or 187% */
+    letter-spacing: 0.25px;
+    color: #030C04;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.para2 {
+    width: 89px;
+    height: 19px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    /* identical to box height */
+    letter-spacing: 1.2px;
+    color: #12CE31;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.param {
+    width: 365px;
+    height: 84px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 1;
+    flex-grow: 0;
+}
+.card-title{
+   color: #12CE31;
+}
+.my-para{
+    width: 410px;
+height: 72px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+letter-spacing: 0.30px;
+color: #000000;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.parag{
+    justify-content: right;
+    float: left;
+}
+.footer{
+    background-color: #000000;
+}
+.copy{
+  margin-bottom: 0px;
+  text-align: center;
+}
+.tof{
+  text-align: right;
+}
