@@ -1,3 +1,13 @@
+*{
+    /* outline: 1px solid red; */
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    overflow-x: hidden;
+}
 .header {
     width: 2250px;
     background: url(./Images/plage.png );
@@ -8,28 +18,25 @@
     top: -356px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
-    /* position:relative ; */
+    background-size: cover;
 }
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.3) !important;
-   color: #FFFFFF !important;
-
+    color: #FFFFFF !important;
 }
-
 .nav-item {
     color: #FFFFFF;
 }
 
-.nav-link{
+.nav-link {
     color: #FFFFFF !important;
 }
+
 .para {
     margin-top: 30px;
     width: 124px;
     height: 19px;
-
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
@@ -40,7 +47,6 @@
     letter-spacing: 1.2px;
 
     color: #12CE31;
-
 }
 
 .hero {
@@ -51,11 +57,8 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 48px;
-    /* or 133% */
     letter-spacing: 0.32px;
     color: #FFFFFF;
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -65,103 +68,179 @@
     width: 300px;
     height: 200px;
     margin-left: 30px;
-   margin-top:-20px;
+    margin-top: -20px;
 }
 
 .vieux {
-    width: 100px;
-    height: 100px;
-
+    width: 80px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .nage {
-    width: 100px;
-    height: 100px;
-
+    width: 80px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .mer {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
-
+.educ{
+    margin-top: -30px;
+    background-color: #FFFFFF;
+}
 .card-text {
     margin-top: 8rem;
+}
+.texte{
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    left: 288px;
+   top: 59px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 43px;
+   letter-spacing: 0.32px;
+   color: #030C04;
 }
 
 .my-card {
     padding-top: 20px;
-    padding-bottom: 20px;
-    
+    padding-bottom:40px;
+    margin-top: 50px;
+    margin-bottom:50px;
+
 }
 
 .card {
-    margin: 25px;
+    margin:9px;
+   
 }
 
 .travel {
-    /* position: absolute; */
+    position: absolute;
     width: 247px;
     height: 48px;
-    /* left: 0px; */
-    /* top: calc(50% - 48px/2); */
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 48px;
-    /* identical to box height, or 133% */
     letter-spacing: 0.32px;
     color: #030C04;
 }
+.diva{
+background-color: #030C04;
+margin-bottom: 25px;
+}
 
+.div1{
+    background: linear-gradient(108.94deg, rgba(8, 97, 147, 0.54) -9.26%, #98FFA9 -9.26%, #030C04 27.28%);
+    position:relative;
+}
+
+.div2{
+   background-color:#FFFFFF;
+ 
+}
+.montagne{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: -40px;
+}
+.nége{
+    margin-top: 30px;
+}
+.section4{
+    position: absolute;
+    width: 371px;
+    height: 168px;
+    left: 270px;
+    top: 126px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7E8A80;
+}
+.textro{
+    position: absolute;
+    width: 340px;
+    height: 43px;
+    left: 270px;
+    top: 50px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: 0.30px;
+    color: #FFFFFF;
+    
+}
 .based {
     width: 391px;
     height: 48px;
-    font-family: 'Playfair Display';
+    /* font-family: 'Playfair Display'; */
     font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 35px;
     line-height: 48px;
-    /* identical to box height, or 133% */
     letter-spacing: 0.32px;
     color: #030C04;
-
+}
+.title2{
+    width: 100px;
+   height: 19px;
+   left: 800px;
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* text-align: center; */
+  letter-spacing: 0.20px;
+  text-transform: uppercase;
+  color: #12CE31;
 }
 
 .title {
     width: 78px;
     height: 16px;
+    left: 130px;
     font-family: 'Satoshi';
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 10px;
     line-height: 16px;
     letter-spacing: 1.2px;
     color: #12CE31;
-    display: flex;
-    /* Inside auto layout */
-    /* flex: none; */
-    order: 0;
-    /* flex-grow: 0; */
+    float: right;
 }
 
 .parag {
+    position: absolute;
     width: 247px;
     height: 84px;
-    font-family: 'Playfair Display';
+    left: 130px;
+    top: 50px;
+    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 28px;
-    /* or 187% */
-    letter-spacing: 0.25px;
-    color: #030C04;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
+    color:#000000;
+} 
 
 .para2 {
     width: 89px;
@@ -196,38 +275,51 @@
     order: 1;
     flex-grow: 0;
 }
-.card-title{
-   color: #12CE31;
+
+.card-title {
+    color: #12CE31;
 }
-.my-para{
+.my-para {
     width: 410px;
-height: 72px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-/* or 150% */
-letter-spacing: 0.30px;
-color: #000000;
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    height: 72px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.30px;
+    color: #000000;
+    flex: none;
+    /* order: 1;
+    flex-grow: 0; */
 }
-.parag{
+
+.parag {
     justify-content: right;
     float: left;
 }
-.footer{
+.load{
+   background-color: #12CE31;
+   text-align: center;
+   width: 120px;
+   height: 35px;
+   margin: auto;
+   padding: 5px;
+   margin-bottom:50px;
+}
+
+.footer {
     background-color: #000000;
 }
-.copy{
-  margin-bottom: 0px;
-  text-align: center;
+
+.copy {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #FFFFFF;
 }
-.tof{
-  text-align: right;
+
+.contact {
+    text-align: right;
+    float: right;
+    margin-left: 285px;
 }
