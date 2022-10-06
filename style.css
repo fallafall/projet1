@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 .header {
-    width: 2250px;
+    /* width: 2250px; */
     background: url(./Images/plage.png );
     width: 100%;
     height: 70vh;
@@ -42,7 +42,6 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 1.2px;
 
@@ -50,18 +49,14 @@ body{
 }
 
 .hero {
-    width: 665px;
-    height: 144px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: 0.32px;
+    font-size: 30px;
+    letter-spacing: 0.30px;
     color: #FFFFFF;
     flex: none;
     order: 1;
-    flex-grow: 0;
 }
 
 .card {
@@ -99,7 +94,7 @@ body{
     margin-top: 8rem;
 }
 .texte{
-    position: absolute;
+    /* position: absolute; */
     width: 236px;
     height: 43px;
     left: 288px;
@@ -127,7 +122,7 @@ body{
 }
 
 .travel {
-    position: absolute;
+    /* position: absolute; */
     width: 247px;
     height: 48px;
     font-family: 'Playfair Display';
@@ -146,6 +141,7 @@ margin-bottom: 25px;
 .div1{
     background: linear-gradient(108.94deg, rgba(8, 97, 147, 0.54) -9.26%, #98FFA9 -9.26%, #030C04 27.28%);
     position:relative;
+    z-index: 2;
 }
 
 .div2{
@@ -162,7 +158,7 @@ margin-bottom: 25px;
 }
 .section4{
     position: absolute;
-    width: 371px;
+    /* width: 371px; */
     height: 168px;
     left: 270px;
     top: 126px;
@@ -172,10 +168,11 @@ margin-bottom: 25px;
     font-size: 14px;
     line-height: 28px;
     color: #7E8A80;
+    z-index: 2;
 }
 .textro{
     position: absolute;
-    width: 340px;
+    /* width: 340px; */
     height: 43px;
     left: 270px;
     top: 50px;
@@ -191,7 +188,6 @@ margin-bottom: 25px;
 .based {
     width: 391px;
     height: 48px;
-    /* font-family: 'Playfair Display'; */
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
@@ -208,7 +204,6 @@ margin-bottom: 25px;
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
-  /* text-align: center; */
   letter-spacing: 0.20px;
   text-transform: uppercase;
   color: #12CE31;
@@ -230,7 +225,7 @@ margin-bottom: 25px;
 
 .parag {
     position: absolute;
-    width: 247px;
+    /* width: 247px; */
     height: 84px;
     left: 130px;
     top: 50px;
@@ -251,13 +246,9 @@ margin-bottom: 25px;
     font-size: 14px;
     line-height: 19px;
     text-align: right;
-    /* identical to box height */
     letter-spacing: 1.2px;
     color: #12CE31;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
 }
 
 .param {
@@ -280,18 +271,16 @@ margin-bottom: 25px;
     color: #12CE31;
 }
 .my-para {
-    width: 410px;
-    height: 72px;
+    /* width: 410px; */
+    /* height: 72px; */
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.30px;
+    font-size: 15px;
+    letter-spacing: 0.20px;
     color: #000000;
     flex: none;
-    /* order: 1;
-    flex-grow: 0; */
+    
 }
 
 .parag {
@@ -319,7 +308,10 @@ margin-bottom: 25px;
 }
 
 .contact {
-    text-align: right;
+    text-align:center;
     float: right;
-    margin-left: 285px;
+    /* margin-left: 285px; */
 }
+/* .connection{
+    float: right;
+} */
